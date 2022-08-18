@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    border-top: 1px solid #7d7f8372;
+
+    a {
+        text-decoration: none;
+        color: #909090;
+
+        &:hover {
+            color: #5094f2;
+        }
+    }
+}
+

@@ -1,0 +1,21 @@
+.grid.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 768px) {
+
+    .grid.container {
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width: 480px) {}

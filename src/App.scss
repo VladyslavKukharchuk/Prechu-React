@@ -1,0 +1,33 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 44px;
+    color: #909090;
+    font-size: 20px;
+}
+
+@media(max-width: 1024px) {
+    body {
+        line-height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 768px) {
+    body {
+        line-height: 28px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    body {
+        line-height: 26px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,141 @@
+.shopping.container {
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    .shopping__content {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .shopping__img {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            width: 35%;
+        }
+
+        .shopping__text {
+            padding-left: 50px;
+            width: 50%;
+
+            p {
+                padding-top: 35px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .shopping.container {
+        padding-top: 40px;
+        padding-bottom: 45px;
+
+        .shopping__text {
+            padding-left: 0px;
+
+            p {
+                padding-top: 25px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+
+    .shopping.container {
+        min-height: 80vh;
+        margin: 0;
+
+        h2 {
+            text-align: center;
+            padding: 0;
+        }
+
+        .shopping__content {
+            flex-direction: column;
+
+            .shopping__img {
+                width: 55%;
+            }
+
+            .shopping__text {
+                width: 80%;
+
+                h3 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 480px) {
+
+    .shopping.container {
+        padding-bottom: 45px;
+    }
+}
+
+
+
+//Шрифти
+
+.shopping {
+    h2 {
+        font-size: 42px;
+        padding-left: 55px;
+    }
+
+    .shopping__text {
+        h3 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .shopping {
+        h2 {
+            font-size: 38px;
+            padding-left: 45px;
+        }
+
+        .shopping__text h3 {
+            font-size: 22px;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+
+    .shopping {
+        h2 {
+            font-size: 34px;
+        }
+
+        .shopping__text {
+            h3 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media(max-width: 480px) {
+
+    .shopping__text h3 {
+        font-size: 18px;
+    }
+}
